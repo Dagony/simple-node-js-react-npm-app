@@ -12,5 +12,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-node": "^3.0.0"
   }
 }

@@ -9,7 +9,7 @@ describe("React running and http://localhost:3000/ is showing website", function
         });
     });
 
-    it("returns body container 'To get started, edit '", function() {
+    it("returns body container 'To get started, edit '", function(done) {
         request.get(base_url, function(error, response, body) {
             expect(body).toContain("To get started, edit ");
             done();

@@ -18,4 +18,5 @@ echo 'application renders satisfactorily. This command actually invokes the test
 echo 'runner Jest (https://facebook.github.io/jest/).'
 set -x
 # npm test
+npm start
 node_modules/jasmine/bin/jasmine.js --conf=spec/support/jasmine.conf
